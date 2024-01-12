@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, matthews_corrcoef, confusion_matrix
-from simple_model.multi_label.feature2 import generate_features
+from Model.feature import generate_features
 from torch.utils.data import DataLoader, TensorDataset
 import numpy as np
 import torch
@@ -13,12 +13,12 @@ import torch.utils.data as Data
 import time
 import pandas as pd
 import sys
-from model1.BINARY import *
-from model1.BLOSUM62 import *
-from model1.ZSCALE import *
+from Model.BINARY import *
+from Model.BLOSUM62 import *
+from Model.ZSCALE import *
 from get_data import collate, get_prelabel, MyDataSet
 from original_data import get_original_data_Anti
-from model1.feature_generator import feature_generator
+from Model.feature_generator import feature_generator
 from MyUtils.util_eval import evaluate_accuracy
 from MyUtils.util_cal import caculate_metric
 from ContrastModel import newModel, ContrastiveLoss
