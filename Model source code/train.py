@@ -194,21 +194,6 @@ for epoch in range(EPOCH):
 print(f"Final best accuracy: {best_acc:.2f}%")
 model.eval()
 model2.eval()
-
-
-# device = torch.device("cpu")
-# model1 = newModel().to(device)
-# checkpoint1 = torch.load('balanced2.pl', map_location=torch.device('cpu'))
-# model1.load_state_dict(checkpoint1['model'])
-#
-# model1.eval()  # 设置模型为评估模式
-#
-# model2 = SimpleClassifier().to(device)
-# checkpoint2 = torch.load('best_model_balanced_amp.pl')
-# model2.load_state_dict(checkpoint2['model_state_dict'])
-# model2.eval()
-
-
 hidden_features_list_train = []
 with torch.no_grad():
     for x, y, z in train_iter:
