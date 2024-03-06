@@ -7,8 +7,8 @@ This AVP prediction tool developed by a team from the Chinese University of Hong
 
 
 # Dataset for this study
-We provided our dataset and you can find them [Dataset](https://github.com/GGCL7/CAVP/tree/main/Datasets)
+We provided our dataset and you can find them [Datasets](https://github.com/GGCL7/CAVP/tree/main/Datasets)
 
 
 # Model source code
-The source code for training our models can be found here [Model](https://github.com/GGCL7/AVP-IFT/tree/main/Model%20source%20code).
+The source code for training our models can be found here [Model source code](https://github.com/GGCL7/AVP-IFT/tree/main/Model%20source%20code).
