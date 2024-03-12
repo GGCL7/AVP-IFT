@@ -14,4 +14,4 @@ We provided our dataset and you can find them [Datasets](https://github.com/GGCL
 The source code for training our models can be found here [Model source code](https://github.com/GGCL7/AVP-IFT/tree/main/Model%20source%20code).
 
 # Web server
-We also provide a web server to the users,  which you can access from the().
+We also provide a web server to the users,  which you can access from the [Web server](https://awi.cuhk.edu.cn/~dbAMP/AVP/).
