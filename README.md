@@ -9,9 +9,21 @@ This AVP prediction tool developed by a team from the Chinese University of Hong
 # Dataset for this study
 We provided our dataset and you can find them [Datasets](https://github.com/GGCL7/CAVP/tree/main/Datasets)
 
+## 🔧 Installation instructions
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/GGCL7/AVP-IFT.git
+cd AVP-IFT
+```
+2. **Set up the Python environment**
+```bash
+conda create -n avpift python=3.10
+conda activate avpift
+pip install -r requirements.txt
+```
 
 # Model source code
-The source code for training our models can be found here [Model source code](https://github.com/GGCL7/AVP-IFT/tree/main/Model%20source%20code).
+The source code for training our models can be found here [Model source code](https://github.com/GGCL7/AVP-IFT/tree/main/Code).
 
-# Web server
-We also provide a web server to the users,  which you can access from the [Web server](https://awi.cuhk.edu.cn/~dbAMP/AVP/).
+
